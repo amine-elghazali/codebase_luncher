@@ -122,6 +122,14 @@ func main() {
 
 	l := list.New(items, delegate, 40, 20)
 
+	titleStyle := lipgloss.NewStyle().
+		Foreground(lipgloss.Color("white")).
+		Background(lipgloss.Color("blue")).
+		Padding(0, 2).
+		Align(lipgloss.Center)
+
+	l.Title = titleStyle.Render("codebase_launcher")
+
 	m := model{
 		list:     l,
 		selected: selected,
