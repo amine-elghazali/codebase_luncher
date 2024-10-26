@@ -2,6 +2,8 @@
 
 A simple TUI (Text User Interface) application built with Go that allows users to navigate through directories and open them in Visual Studio Code. This tool provides a clean and minimal interface for quickly launching codebases.
 
+![alt text](https://github.com/amine-elghazali/codebase_luncher/pic_V0.1.png?raw=true)
+
 ## Features
 
 - Browse directories in the current path.
