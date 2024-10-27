@@ -10,6 +10,10 @@ A simple TUI (Text User Interface) application built with Go that allows users t
 - Select multiple folders to open in Visual Studio Code.
 - Simple and intuitive keyboard controls.
 
+## Next features / ideas
+- [ ] it should be lunched from everwhere, users can only install it and than can lunch it on whatever directory they were in to list the directory on that current path that they want to open. 
+- [ ] Consider adding a feature that allows users to launch the TUI, which will then display the current directories at the current level. Users can access each folder at this level and navigate into its subfolders ...
+
 ## Installation
 
 1. Clone the repository:
